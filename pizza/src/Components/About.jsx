@@ -7,15 +7,17 @@ const About = () => {
       <div id='about'>
         <div style={{width: "40%", padding: "10px"}}>
           <h1 style={{width:"250px", padding:"10px"}}>NOT JUST THE PIZZA</h1>
-          <h3 style={{width:"380px", padding:"10px"}}>
+          <h4 style={{width:"380px", padding:"10px"}}>
           We create lasting memories, one pizza at a time. Take a minute to learn more about our story, our values, and our commitment to quality.
-          </h3>
+          </h4>
           <div style={{display:"inline-flex", gap:"10px", padding:"10px"}}>
             <button style={{width:"150px", padding:"10px", borderRadius:"30px", backgroundColor:"red", color:"white", border:"none"}}>
               Place an order
             </button>
-            <p>Check out our menu</p>
-            <FaLongArrowAltRight style={{paddingTop:"17px"}}/>
+            <div style={{display:"flex", gap:"10px"}}>
+              <p>Check out our menu</p>
+              <FaLongArrowAltRight style={{paddingTop:"10px", height:"30px"}}/>
+            </div>
           </div>
         </div>
         <div style={{width: "60%"}}>

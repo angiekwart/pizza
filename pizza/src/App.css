@@ -9,6 +9,15 @@
   position: sticky;
   z-index: 1;
 }
+nav-ul{
+  list-style: none;
+  color: white;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100px;
+  display: block;
+  gap: 10px;
+}
 
 .full-width-video{
     position: absolute;
